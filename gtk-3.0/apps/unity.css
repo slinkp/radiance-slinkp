@@ -1,7 +1,7 @@
 /* Decorations */
 
 UnityDecoration {
-    -UnityDecoration-extents: 28px 0 0 0;
+    -UnityDecoration-extents: 28px 1px 2px 1px;
     -UnityDecoration-input-extents: 10px;
 
     -UnityDecoration-shadow-offset-x: 1px;
@@ -57,29 +57,19 @@ UnityDecoration.top:backdrop {
 
 UnityDecoration.left,
 UnityDecoration.right {
-    background-color: shade (@bg_color, 0.7);
-    background-size: 1px 70px;
-    background-repeat: repeat-x;
-
-    /* start color: mix of the top border color and bg-image gradient end */
-    background-image: -gtk-gradient (linear, left top, left bottom,
-                                     color-stop (0, #a89686),
-                                     color-stop (0.5, #a89686),
-                                     color-stop (1, shade (@bg_color, 0.7)));
+    background-color: #555555;
+    background-image: none;
 }
 
 UnityDecoration.left:backdrop,
 UnityDecoration.right:backdrop {
-    /* start color: mix of the top border color and bg-image gradient end */
-    background-image: -gtk-gradient (linear, left top, left bottom,
-                                     color-stop (0, #b5a395),
-                                     color-stop (0.5, #b5a395),
-                                     color-stop (1, shade (@bg_color, 0.7)));
+    background-color: #555555;
+    background-image: none;
 }
 
 UnityDecoration.bottom {
     background-image: none;
-    background-color: shade (@bg_color, 0.7);
+    background-color: #555555;
 }
 
 /* Panel Style */
