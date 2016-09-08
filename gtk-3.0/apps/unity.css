@@ -56,20 +56,13 @@ UnityDecoration.top:backdrop {
 }
 
 UnityDecoration.left,
-UnityDecoration.right {
-    background-color: #555555;
-    background-image: none;
-}
-
+UnityDecoration.right,
 UnityDecoration.left:backdrop,
-UnityDecoration.right:backdrop {
-    background-color: #555555;
-    background-image: none;
-}
-
+UnityDecoration.right:backdrop,
 UnityDecoration.bottom {
+    background-color: #555568;
     background-image: none;
-    background-color: #555555;
+    border-width: 1px;
 }
 
 /* Panel Style */
